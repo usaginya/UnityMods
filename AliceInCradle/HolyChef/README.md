@@ -10,7 +10,7 @@
 1. 清烧河蟹 - 隐藏部分动态马赛克遮罩
 
 2. 大杂烩 - 自定义贴图
-	+ 从资源中提取贴图（比如使用 AssetStudio 工具）
+	+ 从资源中提取贴图（比如使用 AssetStudio 工具）然后编辑
 	+ 在 `BepInEx\plugins\HolyChef\Texture2D` 目录中放置对应名称 `png` 或 `pxlp` 扩展名的图片
 	+ 把不健全的贴图放到 `BepInEx\plugins\HolyChef\Texture2D\sensitive` 将会在游戏开启健全模式时不进行更换
 
