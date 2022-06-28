@@ -22,6 +22,7 @@
 2. 请不要将 MOD 和游戏一起重新打包后再分流配布
 
 3. 请不要在日本地区使用`清烧河蟹`功能
+
 	把 `moe.moekai.unityplugin.aliceincradle.holychef.cfg` 设置文件 `[Hodgepodge]` 下面的 `Enable = true` 改成 `Enable = false`
 
 
@@ -37,7 +38,9 @@
 ## 自助服务
 
 1. 在 `BepInEx\config\moe.moekai.unityplugin.aliceincradle.holychef.cfg` 文件中可以根据注释开启或关闭 MOD 功能
-	修改 
+
+	修改开头没有 # 的部分
+	
 	+ 开启：`true`
 	+ 关闭：`false`
 
