@@ -15,6 +15,16 @@
 	+ 把不健全的贴图放到 `BepInEx\plugins\HolyChef\Texture2D\sensitive` 将会在游戏开启健全模式时不进行更换
 
 
+## 注意事项
+
+1. 游戏的路径必须是全英文的、否则无法正常工作
+
+2. 请不要将 MOD 和游戏一起重新打包后再分流配布
+
+3. 请不要在日本地区使用`清烧河蟹`功能
+	把 `moe.moekai.unityplugin.aliceincradle.holychef.cfg` 设置文件 `[Hodgepodge]` 下面的 `Enable = true` 改成 `Enable = false`
+
+
 ## 食用方法
 
 1. 压缩包密码：`萌界`
@@ -27,6 +37,7 @@
 ## 自助服务
 
 1. 在 `BepInEx\config\moe.moekai.unityplugin.aliceincradle.holychef.cfg` 文件中可以根据注释开启或关闭 MOD 功能
+	修改 
 	+ 开启：`true`
 	+ 关闭：`false`
 
@@ -42,4 +53,5 @@
 
 | 游戏版本  | 兼容  |
 | ------------ | ------------ |
-| 0.20c ~ 0.20s | ○ |
+| 0.20+ | ○ |
+| 0.30+ | ? |
